@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "s-songDetail":"../../components/musicDetail/musicDetail"
+    "s-songDetail":"../../components/musicDetail/musicDetail",
+    "s-setting":"../../components/moveicon/moveicon"
   }
 }

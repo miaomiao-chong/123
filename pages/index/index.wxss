@@ -1,5 +1,5 @@
 .container{
-  padding: 20rpx 20rpx;
+  padding: 0 20rpx;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -72,8 +72,18 @@ input{
   
 }  
 
-
+/* 组件样式 */
+/* 歌曲搜索列表 */
 .songList{
   position: absolute;
   top: 120rpx;
+}
+/* 设置icon */
+.setting{
+  position: absolute;
+  bottom: 70rpx;
+  right: 20rpx;
+  width: 150rpx;
+  height: 150rpx;
+  /* float: right; */
 }

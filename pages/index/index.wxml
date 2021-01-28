@@ -12,4 +12,6 @@
   
 
   <s-songDetail wx:if="{{showSongList}}" songList="{{musicList}}" class="songList"></s-songDetail>
+
+  <s-setting class="setting"></s-setting>
 </view>

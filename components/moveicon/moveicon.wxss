@@ -1,0 +1,15 @@
+/* components/moveicon/moveicon.wxss */
+@import "../../static/iconfont/iconfont.wxss";
+movable-area{
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+}
+
+.setting
+{
+  text-align: center;
+  color: rgb(92, 201, 159);
+  font-size: 70rpx;
+}

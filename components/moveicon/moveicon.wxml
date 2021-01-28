@@ -1,0 +1,5 @@
+<movable-area >
+  <movable-view direction="all" x="20" y="20">
+    <text class="iconfont icon-shezhi setting"></text>
+  </movable-view>
+</movable-area>
