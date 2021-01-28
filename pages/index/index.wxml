@@ -1,0 +1,15 @@
+<view class="container" bindtap="iswelcome">
+  <view class="search">
+    <input type="text"  class="{{addclass?'input_focus':''}}" bindfocus="isfocus" bindblur="clearclass" placeholder="{{placeholder}} " 
+    bindchange="handleInput"  />
+    <view class="iconfont icon-search iconsearch" bindtap="click"></view>
+  </view>
+
+  <!-- 输入框获取焦点或点击屏幕后不再显示 -->
+  <view class="welcome">  
+    <view class="welcomeAnimation {{welcomeAnimation2?'welcomeAnimation2':''}}">欢迎来访</view>
+  </view>
+  
+
+  <s-songDetail wx:if="{{showSongList}}" songList="{{musicList}}" class="songList"></s-songDetail>
+</view>

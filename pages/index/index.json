@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "s-songDetail":"../../components/musicDetail/musicDetail"
+  }
+}

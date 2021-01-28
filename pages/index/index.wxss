@@ -1,0 +1,79 @@
+.container{
+  padding: 20rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+/* 输入框整体 */
+.search{
+  display: flex;
+  align-items: center;
+}
+/* 输入框 */
+input{
+  color: rgb(10, 112, 107);
+  border: 1rpx solid rgb(127, 186, 204);
+  height: 60rpx;
+  border-radius: 30rpx;
+  padding-left: 30rpx;
+  flex: 1;
+}
+/* 输入框选中 */
+.input_focus{
+  box-shadow: 3px 3px 5px #65cca5;
+}
+/* 放大镜 */
+.iconsearch{
+  display: block;
+  color: rgb(79, 148, 153);
+  /* margin-left: 20rpx; */
+  padding: 10rpx;
+  font-size: 50rpx;
+}
+
+/* 欢迎访问 */
+/* .welcome{
+  flex: 1;
+} */
+.welcome view {
+  /* 竖着排列并且均匀分布 */
+  writing-mode: vertical-lr;
+  text-align-last: justify; 
+  width:100rpx;
+  height: 600rpx;
+  position: absolute;
+  font-size: 100rpx;
+  color: rgb(219, 174, 148);
+
+  /* justify-content: space-around; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+}
+.welcomeAnimation{
+  animation:mymove 1s linear;
+}
+@keyframes mymove
+{
+  from {opacity: 0}
+  to {opacity: 1}
+}
+.welcomeAnimation2{
+  animation:mymove2 1s ease-in-out 0s 1 alternate forwards;
+}
+@keyframes mymove2
+{
+
+    50%{opacity:.8;}
+    100%{opacity:0;}
+  
+}  
+
+
+.songList{
+  position: absolute;
+  top: 120rpx;
+}

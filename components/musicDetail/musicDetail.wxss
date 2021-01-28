@@ -1,0 +1,21 @@
+/* components/musicDetail/musicDetail.wxss */
+.musicListContainer{
+  display: block;
+}
+.musicItem{
+  display: block;
+  width: 700rpx;
+  min-height: 60rpx;
+  border: 1rpx solid rgb(109, 214, 221);
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+}
+.singer{
+  padding:0 20rpx;
+  text-align: center;
+}
+
+/* 框体选中 */
+.musicItemChoose{
+  box-shadow: 3px 3px 5px #65cca5;
+}
