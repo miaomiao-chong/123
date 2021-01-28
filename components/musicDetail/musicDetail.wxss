@@ -1,15 +1,18 @@
 /* components/musicDetail/musicDetail.wxss */
 .musicListContainer{
   display: block;
+  /* 一个大大大大坑 */
+  height: calc( 100vh - 120rpx );
 }
 .musicItem{
   display: block;
-  width: 700rpx;
+  width: 650rpx;
   min-height: 60rpx;
   border: 1rpx solid rgb(109, 214, 221);
   margin-bottom: 20rpx;
   border-radius: 20rpx;
   padding: 0 20rpx;
+  font-size: 30rpx;
 }
 .singer{
   padding:0 20rpx;

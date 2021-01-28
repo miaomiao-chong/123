@@ -11,161 +11,161 @@ Page({
     addclass:false,   //控制输入框样式
     inputValue:'',     //输入内容
     musicList:[
-    //   {
-    //     "id": 354799,
-    //     "name": "123",
-    //     "artists": [
-    //     {
-    //     "id": 11569,
-    //     "name": "Fusion乐团",
-    //     "picUrl": null,
-    //     "alias": [],
-    //     "albumSize": 0,
-    //     "picId": 0,
-    //     "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-    //     "img1v1": 0,
-    //     "trans": null
-    //     },
-    //     {
-    //     "id": 6453,
-    //     "name": "张震岳",
-    //     "picUrl": null,
-    //     "alias": [],
-    //     "albumSize": 0,
-    //     "picId": 0,
-    //     "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-    //     "img1v1": 0,
-    //     "trans": null
-    //     }
-    //     ],
-    //     "album": {
-    //     "id": 35009,
-    //     "name": "如果未来",
-    //     "artist": {
-    //     "id": 0,
-    //     "name": "",
-    //     "picUrl": null,
-    //     "alias": [],
-    //     "albumSize": 0,
-    //     "picId": 0,
-    //     "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-    //     "img1v1": 0,
-    //     "trans": null
-    //     },
-    //     "publishTime": 1199462400000,
-    //     "size": 11,
-    //     "copyrightId": 0,
-    //     "status": 1,
-    //     "picId": 38482906984174,
-    //     "mark": 0
-    //     },
-    //     "duration": 228911,
-    //     "copyrightId": 0,
-    //     "status": 0,
-    //     "alias": [],
-    //     "rtype": 0,
-    //     "ftype": 0,
-    //     "mvid": 0,
-    //     "fee": 0,
-    //     "rUrl": null,
-    //     "mark": 0
-    //     },
-    //     {
-    //     "id": 1312711592,
-    //     "name": "123",
-    //     "artists": [
-    //     {
-    //     "id": 904046,
-    //     "name": "Jess Glynne",
-    //     "picUrl": null,
-    //     "alias": [],
-    //     "albumSize": 0,
-    //     "picId": 0,
-    //     "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-    //     "img1v1": 0,
-    //     "trans": null
-    //     }
-    //     ],
-    //     "album": {
-    //     "id": 73845448,
-    //     "name": "Always In Between (Deluxe)",
-    //     "artist": {
-    //     "id": 0,
-    //     "name": "",
-    //     "picUrl": null,
-    //     "alias": [],
-    //     "albumSize": 0,
-    //     "picId": 0,
-    //     "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-    //     "img1v1": 0,
-    //     "trans": null
-    //     },
-    //     "publishTime": 1539273600000,
-    //     "size": 17,
-    //     "copyrightId": 7002,
-    //     "status": 3,
-    //     "picId": 109951164090240281,
-    //     "mark": 0
-    //     },
-    //     "duration": 190328,
-    //     "copyrightId": 7002,
-    //     "status": 0,
-    //     "alias": [],
-    //     "rtype": 0,
-    //     "ftype": 0,
-    //     "mvid": 10798622,
-    //     "fee": 1,
-    //     "rUrl": null,
-    //     "mark": 270336
-    //     },
-    //     {
-    //     "id": 566013815,
-    //     "name": "123",
-    //     "artists": [
-    //     {
-    //     "id": 12957067,
-    //     "name": "Swaggy Z",
-    //     "picUrl": null,
-    //     "alias": [],
-    //     "albumSize": 0,
-    //     "picId": 0,
-    //     "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-    //     "img1v1": 0,
-    //     "trans": null
-    //     }
-    //     ],
-    //     "album": {
-    //     "id": 39203081,
-    //     "name": "123",
-    //     "artist": {
-    //     "id": 0,
-    //     "name": "",
-    //     "picUrl": null,
-    //     "alias": [],
-    //     "albumSize": 0,
-    //     "picId": 0,
-    //     "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
-    //     "img1v1": 0,
-    //     "trans": null
-    //     },
-    //     "publishTime": 1526947200000,
-    //     "size": 1,
-    //     "copyrightId": 0,
-    //     "status": 0,
-    //     "picId": 109951163312014780,
-    //     "mark": 0
-    //     },
-    //     "duration": 206053,
-    //     "copyrightId": 0,
-    //     "status": 0,
-    //     "alias": [],
-    //     "rtype": 0,
-    //     "ftype": 0,
-    //     "mvid": 0,
-    //     "fee": 0,
-    //     "rUrl": null,
-    //     "mark": 64
-    //     }
+      // {
+      //   "id": 354799,
+      //   "name": "123",
+      //   "artists": [
+      //   {
+      //   "id": 11569,
+      //   "name": "Fusion乐团",
+      //   "picUrl": null,
+      //   "alias": [],
+      //   "albumSize": 0,
+      //   "picId": 0,
+      //   "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      //   "img1v1": 0,
+      //   "trans": null
+      //   },
+      //   {
+      //   "id": 6453,
+      //   "name": "张震岳",
+      //   "picUrl": null,
+      //   "alias": [],
+      //   "albumSize": 0,
+      //   "picId": 0,
+      //   "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      //   "img1v1": 0,
+      //   "trans": null
+      //   }
+      //   ],
+      //   "album": {
+      //   "id": 35009,
+      //   "name": "如果未来",
+      //   "artist": {
+      //   "id": 0,
+      //   "name": "",
+      //   "picUrl": null,
+      //   "alias": [],
+      //   "albumSize": 0,
+      //   "picId": 0,
+      //   "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      //   "img1v1": 0,
+      //   "trans": null
+      //   },
+      //   "publishTime": 1199462400000,
+      //   "size": 11,
+      //   "copyrightId": 0,
+      //   "status": 1,
+      //   "picId": 38482906984174,
+      //   "mark": 0
+      //   },
+      //   "duration": 228911,
+      //   "copyrightId": 0,
+      //   "status": 0,
+      //   "alias": [],
+      //   "rtype": 0,
+      //   "ftype": 0,
+      //   "mvid": 0,
+      //   "fee": 0,
+      //   "rUrl": null,
+      //   "mark": 0
+      //   },
+      //   {
+      //   "id": 1312711592,
+      //   "name": "123",
+      //   "artists": [
+      //   {
+      //   "id": 904046,
+      //   "name": "Jess Glynne",
+      //   "picUrl": null,
+      //   "alias": [],
+      //   "albumSize": 0,
+      //   "picId": 0,
+      //   "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      //   "img1v1": 0,
+      //   "trans": null
+      //   }
+      //   ],
+      //   "album": {
+      //   "id": 73845448,
+      //   "name": "Always In Between (Deluxe)",
+      //   "artist": {
+      //   "id": 0,
+      //   "name": "",
+      //   "picUrl": null,
+      //   "alias": [],
+      //   "albumSize": 0,
+      //   "picId": 0,
+      //   "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      //   "img1v1": 0,
+      //   "trans": null
+      //   },
+      //   "publishTime": 1539273600000,
+      //   "size": 17,
+      //   "copyrightId": 7002,
+      //   "status": 3,
+      //   "picId": 109951164090240281,
+      //   "mark": 0
+      //   },
+      //   "duration": 190328,
+      //   "copyrightId": 7002,
+      //   "status": 0,
+      //   "alias": [],
+      //   "rtype": 0,
+      //   "ftype": 0,
+      //   "mvid": 10798622,
+      //   "fee": 1,
+      //   "rUrl": null,
+      //   "mark": 270336
+      //   },
+      //   {
+      //   "id": 566013815,
+      //   "name": "123",
+      //   "artists": [
+      //   {
+      //   "id": 12957067,
+      //   "name": "Swaggy Z",
+      //   "picUrl": null,
+      //   "alias": [],
+      //   "albumSize": 0,
+      //   "picId": 0,
+      //   "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      //   "img1v1": 0,
+      //   "trans": null
+      //   }
+      //   ],
+      //   "album": {
+      //   "id": 39203081,
+      //   "name": "123",
+      //   "artist": {
+      //   "id": 0,
+      //   "name": "",
+      //   "picUrl": null,
+      //   "alias": [],
+      //   "albumSize": 0,
+      //   "picId": 0,
+      //   "img1v1Url": "http://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+      //   "img1v1": 0,
+      //   "trans": null
+      //   },
+      //   "publishTime": 1526947200000,
+      //   "size": 1,
+      //   "copyrightId": 0,
+      //   "status": 0,
+      //   "picId": 109951163312014780,
+      //   "mark": 0
+      //   },
+      //   "duration": 206053,
+      //   "copyrightId": 0,
+      //   "status": 0,
+      //   "alias": [],
+      //   "rtype": 0,
+      //   "ftype": 0,
+      //   "mvid": 0,
+      //   "fee": 0,
+      //   "rUrl": null,
+      //   "mark": 64
+      //   }
     ]
   },
    /**
@@ -240,7 +240,11 @@ Page({
     }) 
   },
  
-
+  toSetting(){
+    wx.navigateTo({
+      url: '../../pages/setting/setting',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

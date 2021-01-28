@@ -63,13 +63,37 @@
         {
           "name": "pages/index/index",
           "pathName": "pages/index/index",
-          "query": "inputValue=123",
+          "query": "inputValue=孙燕姿",
           "scene": null
         },
         {
           "name": "pages/test/test",
           "pathName": "pages/test/test",
           "query": "inputValue=123",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "inputValue=孙燕姿",
+          "scene": null
+        },
+        {
+          "name": "pages/setting/setting",
+          "pathName": "pages/setting/setting",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/lyric/lyric",
+          "pathName": "pages/lyric/lyric",
+          "query": "id=454828887",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
           "scene": null
         }
       ]

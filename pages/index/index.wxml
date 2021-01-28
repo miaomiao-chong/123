@@ -6,12 +6,12 @@
   </view>
 
   <!-- 输入框获取焦点或点击屏幕后不再显示 -->
-  <view class="welcome">  
+  <view class="welcome" >  
     <view class="welcomeAnimation {{welcomeAnimation2?'welcomeAnimation2':''}}">欢迎来访</view>
   </view>
   
 
   <s-songDetail wx:if="{{showSongList}}" songList="{{musicList}}" class="songList"></s-songDetail>
 
-  <s-setting class="setting"></s-setting>
+  <s-setting class="setting"  bindtap="toSetting"></s-setting>
 </view>

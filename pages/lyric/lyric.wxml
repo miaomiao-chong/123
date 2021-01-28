@@ -1,2 +1,4 @@
 <view class="iconfont icon-fuzhi" bindtap="copy">点击复制</view>
-<text decode="true">{{lrc}}</text>
+<button class="change" id="noTime" bindtap="change" wx:if="{{isShowTimeVersion}}">点击显示无时间版</button>
+<button class="change" id="time" bindtap="change" wx:else>点击显示有时间版</button>
+<text decode="true">{{isShowTimeVersion?lrc:lrc2}}</text>
