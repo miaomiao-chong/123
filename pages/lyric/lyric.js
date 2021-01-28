@@ -64,14 +64,22 @@ Page({
    
   },
   copy(){
-    wx.setClipboardData({
-      data:this.isShowTimeVersion==true?this.data.lrc2:this.data.lrc,
-    
-      success :(res)=>{
-        console.log(data);
-      
-      }
-    })
+    if(this.data.isShowTimeVersion){
+      wx.setClipboardData({
+        data:this.data.lrc,   //一个疑问 这里是不能用三目运算符吗
+        success :(res)=>{
+          console.log(res);
+        }
+      })
+    }else{
+      wx.setClipboardData({
+        data:this.data.lrc2,   
+        success :(res)=>{
+          console.log(res);
+        }
+      })
+    }
+ 
   },
 
   /**

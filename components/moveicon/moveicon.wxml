@@ -1,5 +1,5 @@
 <movable-area >
   <movable-view direction="all" x="40" y="50">
-    <text class="iconfont icon-shezhi setting" ></text>
+    <text class="iconfont icon-qita setting" ></text>
   </movable-view>
 </movable-area>

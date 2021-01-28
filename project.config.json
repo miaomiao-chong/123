@@ -63,7 +63,7 @@
         {
           "name": "pages/index/index",
           "pathName": "pages/index/index",
-          "query": "inputValue=孙燕姿",
+          "query": "",
           "scene": null
         },
         {

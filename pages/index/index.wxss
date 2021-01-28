@@ -35,7 +35,7 @@ input{
 /* .welcome{
   flex: 1;
 } */
-.welcome view {
+.welcome view:nth-child(1) {
   /* 竖着排列并且均匀分布 */
   writing-mode: vertical-lr;
   text-align-last: justify; 
@@ -43,7 +43,7 @@ input{
   height: 600rpx;
   position: absolute;
   font-size: 100rpx;
-  color: rgb(219, 174, 148);
+  color: rgb(147, 221, 217);
 
   /* justify-content: space-around; */
   top: 0;
@@ -52,6 +52,11 @@ input{
   right: 0;
   margin: auto;
 
+}
+/* //提示多点几下 */
+.welcome text{
+  font-size: 26rpx;
+  color: rgb(63, 94, 82);
 }
 .welcomeAnimation{
   animation:mymove 1s linear;
@@ -62,7 +67,7 @@ input{
   to {opacity: 1}
 }
 .welcomeAnimation2{
-  animation:mymove2 1s ease-in-out 0s 1 alternate forwards;
+  animation:mymove2 0.6s ease-in-out 0s 1 alternate forwards;
 }
 @keyframes mymove2
 {
@@ -76,7 +81,7 @@ input{
 /* 歌曲搜索列表 */
 .songList{
   position: absolute;
-  top: 120rpx;
+  top: 130rpx;
   height: calc(100vh-120rpx);
 }
 /* 设置icon */
