@@ -65,6 +65,12 @@
           "pathName": "pages/index/index",
           "query": "inputValue=123",
           "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "inputValue=123",
+          "scene": null
         }
       ]
     }

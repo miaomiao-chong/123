@@ -9,6 +9,7 @@
   border: 1rpx solid rgb(109, 214, 221);
   margin-bottom: 20rpx;
   border-radius: 20rpx;
+  padding: 0 20rpx;
 }
 .singer{
   padding:0 20rpx;

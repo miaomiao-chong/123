@@ -1,7 +1,7 @@
 <view class="container" bindtap="iswelcome">
   <view class="search">
-    <input type="text"  class="{{addclass?'input_focus':''}}" bindfocus="isfocus" bindblur="clearclass" placeholder="{{placeholder}} " 
-    bindchange="handleInput"  />
+    <input type="text"  class="{{addclass?'input_focus':''}}" bindfocus="isfocus" bindblur="clearclass" placeholder="点击搜索 " 
+    bindchange="handleInput" bindinput="handleCurrentInput" />
     <view class="iconfont icon-search iconsearch" bindtap="click"></view>
   </view>
 

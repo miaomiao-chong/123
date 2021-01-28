@@ -1,2 +1,2 @@
-<!--pages/lyric/lyric.wxml-->
-<text>pages/lyric/lyric.wxml</text>
+<view class="iconfont icon-fuzhi" bindtap="copy">点击复制</view>
+<text decode="true">{{lrc}}</text>

@@ -1,4 +1,4 @@
-// pages/lyric/lyric.js
+// pages/test/test.js
 Page({
 
   /**
@@ -12,41 +12,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options.id);
-    this.setData({
-      id:options.id
-    })
-    this. _getlyric()
-  },
-  async _getlyric(){
-    await wx.request({
-      url: `https://api.imjad.cn/cloudmusic/?type=lyric&id=${this.data.id}`,   
-      success: (result) => {
-        this.setData({
-          lrc:result.data.lrc.lyric
-        })
-      },
 
-    })
   },
-  
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-   
-  },
-  copy(){
-    wx.setClipboardData({
-      data: this.data.lrc,
-      success (res) {
-        wx.getClipboardData({
-          success (res) {
-            console.log(res.data) // data
-          }
-        })
-      }
-    })
+
   },
 
   /**

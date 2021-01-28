@@ -10,7 +10,7 @@ Page({
     showSongList:false,     //welcome动画消失以后出现的
     addclass:false,   //控制输入框样式
     inputValue:'',     //输入内容
-    // musicList:[
+    musicList:[
     //   {
     //     "id": 354799,
     //     "name": "123",
@@ -166,7 +166,7 @@ Page({
     //     "rUrl": null,
     //     "mark": 64
     //     }
-    // ]
+    ]
   },
    /**
    * 生命周期函数--监听页面加载
@@ -195,7 +195,7 @@ Page({
   },
   // 整体焦点获取，开场动画消失并且出现音乐列表
   iswelcome(e){
-    // console.log(e);
+    console.log(e);
     if(e.type){
       this.setData({
         welcomeAnimation2:true,
@@ -207,15 +207,19 @@ Page({
   //点击搜索
   click(){
     this._getMusicDetail(this.data.inputValue)
-
   },
-  //获取输入的内容
+  //获取输入的内容(搜索用)
   handleInput(e){
     let inputValue=e.detail.value
     this.setData({
       inputValue
     })
-    if(inputValue==''){
+  },
+  // 获取输入的内容（优化用 里面输入框没动西了清空数组）
+  handleCurrentInput(e){
+    let currentInput=e.detail.value
+    // console.log(currentInput);
+    if(!currentInput){
       this.setData({
         musicList:[]
       })
@@ -224,9 +228,11 @@ Page({
   //得到音乐list并放到data
   async _getMusicDetail(value){
    await wx.request({
-      url: 'http://musicapi.leanapp.cn/search?keywords='+value,
+      url:`http://musicapi.leanapp.cn/search?keywords=${value}`,
+      method:"POST",
       success: (result) => {
-        console.log(result);
+        // console.log(url);
+        // console.log(result);
         this.setData({
           musicList:result.data.result.songs
         })

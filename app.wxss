@@ -1,8 +1,8 @@
 @import './static/iconfont/iconfont.wxss';
 
-/* page{
+page{
   width:100%;
   font-family:'微软雅黑';
   display: block;
   height: 100%;
-} */
+}

@@ -1,6 +1,6 @@
 <view class="musicListContainer" >
   <view class="musicItem {{clickId==item.id?'musicItemChoose':''}}" wx:for="{{songList}}" data-id="{{item.id}}" bindtap="click">
-    <text class="name" decode="true">&nbsp;&nbsp;{{item.name}}</text>
+    <text class="name" decode="true">{{item.name}}</text>
     <text decode="true" class="singer">{{item.artists[0].name}}</text>
   </view>
 </view>
