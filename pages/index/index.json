@@ -2,5 +2,6 @@
   "usingComponents": {
     "s-songDetail":"../../components/musicDetail/musicDetail",
     "s-setting":"../../components/moveicon/moveicon"
-  }
+  },
+  "navigationBarTitleText": "主页"
 }

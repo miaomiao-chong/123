@@ -195,7 +195,7 @@ Page({
   },
   // 整体焦点获取，开场动画消失并且出现音乐列表
   iswelcome(e){
-    console.log(e);
+    // console.log(e);
     if(e.type){
       this.setData({
         welcomeAnimation2:true,

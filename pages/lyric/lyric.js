@@ -25,7 +25,7 @@ Page({
     await wx.request({
       url: `https://api.imjad.cn/cloudmusic/?type=lyric&id=${this.data.id}`,   
       success: (result) => {
-        console.log(result);
+        // console.log(result);
         this.setData({
           lrc:result.data.lrc.lyric
         })
@@ -68,14 +68,14 @@ Page({
       wx.setClipboardData({
         data:this.data.lrc,   //一个疑问 这里是不能用三目运算符吗
         success :(res)=>{
-          console.log(res);
+          // console.log(res);
         }
       })
     }else{
       wx.setClipboardData({
         data:this.data.lrc2,   
         success :(res)=>{
-          console.log(res);
+          // console.log(res);
         }
       })
     }
