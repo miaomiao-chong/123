@@ -210,6 +210,7 @@ Page({
   },
   //获取输入的内容(搜索用)
   handleInput(e){
+ 
     let inputValue=e.detail.value
     this.setData({
       inputValue
@@ -217,6 +218,7 @@ Page({
   },
   // 获取输入的内容（优化用 里面输入框没动西了清空数组）
   handleCurrentInput(e){
+    
     let currentInput=e.detail.value
     // console.log(currentInput);
     if(!currentInput){
@@ -227,8 +229,14 @@ Page({
   },
   //得到音乐list并放到data
   async _getMusicDetail(value){
+    wx.showToast({
+      title: '正在加载',
+      icon:'none',
+      duration:100000
+    })
    await wx.request({
       url:`http://musicapi.leanapp.cn/search?keywords=${value}`,
+      'Content-Type': 'application/x-www-form-urlencoded',
       method:"POST",
       success: (result) => {
         // console.log(url);
@@ -236,7 +244,17 @@ Page({
         this.setData({
           musicList:result.data.result.songs
         })
+        wx.hideToast({
+          success: (res) => {},
+        })
       },
+      fail(e){
+        console.log(e);
+        wx.showToast({
+          title:"请求失败",
+          icon:'none'
+        })
+      }
     }) 
   },
  
